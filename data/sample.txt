@@ -1,1 +1,38 @@
 
+About Dataset
+This dataset consists of 92,000 records related to vehicle maintenance predictions within logistics operations across California, specifically focusing on Internet of Things (IoT) applications. It provides comprehensive information about various vehicles, their operating conditions, maintenance history, and performance metrics, making it a valuable resource for predictive maintenance analysis.
+Features:
+Vehicle_ID: Unique identifier for each vehicle.
+Make_and_Model: The manufacturer and model of the vehicle.
+Year_of_Manufacture: The year the vehicle was manufactured.
+Vehicle_Type: Type of vehicle (e.g., Truck, Van).
+Usage_Hours: Total hours the vehicle has been in operation.
+Route_Info: Description of the type of routes the vehicle typically takes (e.g., Rural, Urban).
+Load_Capacity: The maximum load the vehicle can carry.
+Actual_Load: The actual load carried during operations.
+Last_Maintenance_Date: The date of the vehicle's last maintenance activity.
+Maintenance_Type: The type of maintenance performed (e.g., Oil Change, Tire Rotation).
+Maintenance_Cost: The cost associated with the last maintenance performed.
+Engine_Temperature: Temperature of the engine during operation.
+Tire_Pressure: Pressure of the tires in PSI.
+Fuel_Consumption: Fuel consumption in gallons.
+Battery_Status: Current condition of the vehicle's battery.
+Vibration_Levels: Measured vibration levels of the vehicle.
+Oil_Quality: Quality of the engine oil, rated as Good, Fair, or Poor.
+Brake_Condition: Condition of the vehicle's brakes.
+Failure_History: Indicates whether the vehicle has a history of failures (1 = Yes, 0 = No).
+Anomalies_Detected: Number of anomalies detected during monitoring.
+Predictive_Score: A score indicating the likelihood of maintenance needs based on predictive analytics.
+Maintenance_Required: Indicates if maintenance is required (1 = Yes, 0 = No).
+Weather_Conditions: Weather conditions during the vehicle's operation (e.g., Clear, Rainy).
+Road_Conditions: Type of road conditions experienced (e.g., Highway, Urban).
+Delivery_Times: Average delivery times for the vehicle.
+Downtime_Maintenance: Time spent on maintenance activities.
+Impact_on_Efficiency: Metric indicating how maintenance activities affect operational efficiency.
+
+
+Use Cases:
+This dataset is designed for various applications, including:
+Developing predictive maintenance models using machine learning and deep learning techniques.
+Analyzing vehicle performance under different environmental conditions.
+Enhancing fleet management strategies through IoT data integration.
